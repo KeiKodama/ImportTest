@@ -1,0 +1,51 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ._AndroidManifest.xml
+* ._ant.properties
+* ._build.xml
+* ._libs
+* ._project.properties
+* ._res
+* ._src
+* ant.properties
+* build.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* ._values-en-rGB => ._values-en-rgb
+* ._values-es-rUS => ._values-es-rus
+* ._values-pt-rBR => ._values-pt-rbr
+* ._values-pt-rPT => ._values-pt-rpt
+* ._values-zh-rCN => ._values-zh-rcn
+* ._values-zh-rTW => ._values-zh-rtw
+* AndroidManifest.xml => crosswalkwebview73615413arm\src\main\AndroidManifest.xml
+* assets\ => crosswalkwebview73615413arm\src\main\assets\
+* libs\armeabi-v7a\libxwalkcore.so => crosswalkwebview73615413arm\src\main\jniLibs\armeabi-v7a\libxwalkcore.so
+* libs\xwalk_core_library_java.jar => crosswalkwebview73615413arm\libs\xwalk_core_library_java.jar
+* res\ => crosswalkwebview73615413arm\src\main\res\
+* src\ => crosswalkwebview73615413arm\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
